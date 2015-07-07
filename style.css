@@ -1,0 +1,624 @@
+/*
+Theme Name: My Jeep Leaks
+Author: Brett Spencer
+Author URI: https://darkmassdesign.com
+Description: A theme for My Jeep Leaks.
+Version: 1.0
+Text Domain: myjeepleaks
+
+-----------------------------------
+
+ * Table of Contents
+ 
+ * 1.0 - Global Styles
+ * 2.0 - Header
+ * 3.0 - Banner
+ * 4.0 - Story-Section
+ * 5.0 - About-Section
+ * 6.0 - Main-Section
+ * 7.0 - Side-Categories
+ * 8.0 - Footer
+ * 9.0 - Copywrite
+ * 10.0 - BEGIN WORDPRESS-GENERATED SELECTORS
+ */
+
+/*----- 1.0 - Global Styles ---------*/
+
+body, body * {
+margin : 0;
+padding : 0;
+}
+
+a img {
+  border: 0;
+  padding:10px;
+}
+
+body {font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    background: #333;
+    color:white;
+    /*background-image: url("images/grid.jpg");
+    background-repeat: repeat-y;
+    background-position: 50%;*/
+}
+
+h2, h3 {color: orange;}
+
+h3 {padding-top:20px;}
+
+p {padding-top:10px;}
+
+.spacing {padding-top:0px;}
+
+em {color:orange;}
+
+a {text-decoration: none;
+color: white;
+}
+
+a:hover,
+a:active,
+a:active {color:orange;}
+
+ul {list-style: none;
+margin-left:20px;}
+
+ol {margin-left:40px;}
+
+dt {font-style: oblique;}
+
+dd {margin-left: 1.25em;}
+
+secion {;}
+
+#nav-main {float: right;
+    padding: 10px;
+}
+
+nav ul {;}
+
+nav#nav-main ul li {display: inline;
+padding: 10px;}
+
+nav ul li a {;}
+
+nav ul li a:hover, a:focus {color: #333;}
+
+ul li a {text-decoration: none;}
+
+li {margin-bottom: 5px;}
+
+a:hover em, a:focus em {color:white;}
+
+blockquote {font-style: italic;
+padding-bottom: 50px;}
+
+blockquote a {color:orange;}
+
+#wrapper {width: 840px;
+    margin: auto;
+    padding-top:50px;
+    background: #333;}
+
+
+footer {clear: both;
+    width:100%;
+    margin: auto;
+	background:orange;
+    overflow: hidden;
+    padding-bottom: 10px;}
+
+aside#footer {padding-top:10px;}
+
+.error-404 {text-align: center;}
+
+.error-404 p {padding-bottom:20px;}
+
+.screen-reader-text {display: none;}
+
+.search-submit {
+  display: inline-block;
+  width: 75px;
+  padding: 3px;
+  color: #fff;
+    background: orange;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.search-submit:hover,
+.search-submit:active {background: white;
+color:orange;}
+
+.search-field {
+  display: inline-block;
+  width: 150px;
+  padding: 3px;
+  color:#333;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  outline: none;
+  text-decoration: none;
+}
+
+.wpcf7-form-control {
+  display: inline-block;
+  width: 300px;
+  padding: 3px;
+  color:#333;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  outline: none;
+  text-decoration: none;
+}
+
+.wpcf7-submit {
+  display: inline-block;
+  width: 200px;
+  padding: 3px;
+  color: #fff;
+    background: orange;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.wpcf7-submit:hover,
+.wpcf7-submit:active {background:white;
+color:orange;
+}
+
+#submit {
+  display: inline-block;
+  width: 150px;
+  padding: 3px;
+  color: #fff;
+    background: orange;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+#submit:hover,
+#submit:active {background: white;
+color:orange;}
+
+#comment {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  outline: none;
+}
+
+/*----- 2.0 - Header ---------*/
+header {width:100%;
+		background:orange;
+		display:block;
+		height:50px;
+}
+
+header h1 {float:left;
+padding-left:20px;
+padding-top:3px;
+}
+
+nav#nav-main {margin-top:5px;}
+
+header h1 a:hover,
+header h1 a:focus {color:#333;
+}
+
+.header-content {width: 100%;
+position: fixed;
+z-index: 1000;
+background: orange;}
+
+.header-inside {display: block;
+background: orange;
+width: 970px;}
+
+.logo {float: left;
+padding-left: 10px;}
+
+.header-nav {position: relative;
+z-index: 50;
+background: orange;}
+
+.logo-block {;}
+
+.logo-border {padding: 10px;}
+
+/*----- 3.0 - Banner ---------*/
+
+.hero-banner {width: 100%;
+background-image: url(images/banner.jpg);
+padding-bottom: 475px;
+}
+
+.hero-text {padding-top: 225px;
+color: orange;}
+
+
+.hero-title {text-align: center;
+padding:20px;}
+
+.ghost-text {border-radius: 4px;
+text-align: center;
+padding-bottom:15px;}
+
+.ghost-text p {padding:0;}
+
+.ghost-button-rounded-corners {
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button-rounded-corners:hover,
+.ghost-button-rounded-corners:active,
+.ghost-button-rounded-corners:active{
+  background-color: orange;
+  color: white;
+}
+
+/*----- 4.0 - Story-Section ---------*/
+
+.story-block {margin: auto;
+    color:white;
+    margin-bottom: 50px;
+}
+
+.block-quote a:hover,
+.block-quote a:focus {color:white;}
+
+.block-quote h2 {text-align: center;
+padding: 50px 0 10px 0;}
+
+.block-left {width:300px;
+    float: left;
+display: inline-block;
+padding-left: 90px}
+
+.block-right {width:300px;
+    float: right;
+display: inline-block;
+padding-right: 60px;}
+
+/*----- 5.0 - About-Section ---------*/
+
+.about {display: inline-block;
+color:white;}
+
+.about-block {margin: auto;}
+
+.about-header {margin:auto;
+text-align: center;
+padding-bottom: 10px;}
+
+.about-text {text-align: center;}
+
+/*----- 6.0 - Main-Section ---------*/
+
+#content h2 {color: orange;
+padding-bottom:20px;}
+
+#content {float:left;
+padding-left: 60px;
+width: 475px;
+margin-bottom:50px;
+min-height: 500px;}
+
+.post {border-bottom: 2px solid orange;
+}
+
+.short-view-info {padding-bottom:40px;}
+
+.short-view-info strong {color:orange;}
+
+.short-view-user img {float: left;
+    padding-right:5px;
+}
+
+.short-view-text p {float: right;
+padding-left:10px;
+padding-top:10px;}
+
+nav.pager {;}
+
+.user-story {;}
+
+.article-header {display: inline-block;}
+
+.profile-pic {width:150px;}
+
+p.meta {;}
+
+p.meta ul {;}
+
+p.meta ul li {display: inline;
+}
+p.meta ul li a {color:orange;
+}
+
+p.meta ul li a:hover,
+p.meta ul li a:focus {color:white;
+}
+
+article {width: 450px;
+float: left;}
+
+.comment-body {margin-bottom:30px;
+}
+
+.post-nav {padding-top:20px;
+}
+
+/*----- 7.0 - Side-Categories ---------*/
+
+aside#primary {float:right;
+border-left: 2px solid #808080;
+padding-left: 30px;
+margin-top:75px;
+width:250px;
+margin-bottom:30px;}
+
+aside#primary a:hover,
+aside#primary a:focus {color:orange;}
+
+
+
+/*----- 8.0 - Footer ---------*/
+
+.footer-box {width:800px;
+    margin: auto;
+    background: orange;
+	height: 100px;
+	padding-top:10px;
+}
+
+#nav-footer {float:left;
+    padding-left: 100px;
+}
+
+#nav-footer ul {;
+}
+
+.footer-cat {float:left;
+padding-left:100px}
+
+.footer-cat a {margin-bottom: 5px;}
+
+.footer-cat a:hover,
+.footer-cat a:active {color:#333;}
+
+nav.footer-social ul li {display: inline;
+    padding: 10px 0 0 45px;
+	float:left;
+}
+
+
+.subscribe a{
+  width: 100px;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  float:right;
+  margin-top:25px;
+  margin-right: 15px;
+}
+
+.subscribe a:hover,
+.subscribe a:focus {
+  background-color: white;
+    color:orange;
+}
+
+/*----- 9.0 - Copyright ---------*/
+
+.copyright {color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.copyright ul li {display: inline;
+padding-right:10px;}
+
+.copyright ul li a:hover,
+.copyright ul li a:focus {color:orange;}
+
+
+/*  ------- 10.0 - BEGIN WORDPRESS-GENERATED SELECTORS  ---------  */		
+		
+div.hentry {
+	margin-bottom: 20px;
+}
+
+.wp-caption-text  {
+}
+	
+.alignnone {
+	margin-bottom: 10px; 
+}
+	
+.alignleft {	/* applies to floated images */
+	float: left;
+	margin: 0 10px 10px 0px ; 
+}
+	
+.alignright { 	/* applies to floated images */
+	float: right;
+	margin: 0 0px 10px 10px; 
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#previous_image a, 
+#next_image a {
+	border-bottom: none; 
+}
+	
+.attachment-thumbnail, 
+.size-thumbnail {
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+	
+#gallery-box {
+	margin-bottom: 25px;
+}
+	
+#comments-box,
+#respond {
+	clear: both; 	/* clears floated prev/next nav on comments.php template */	
+}
+	
+	
+/* COMMENTS */
+
+#comments-head {
+	border-bottom: 1px solid #ddd;
+}
+	
+#comments-box ol,
+#comments-box ul {
+	list-style-type:none;
+	padding-left: 0;
+	margin-left: 0;	
+}
+	
+#comments-box ol li {
+	margin: 10px 0;
+}
+		
+#comments-box cite {
+	font-weight:bold;
+	font-size: 13px;
+}
+	
+.comment-author {
+	margin-bottom: 2px;
+	width:200xp;
+}
+	
+.comment p {
+	clear:both
+}
+
+.reply {
+	font-size:10px;
+}
+	
+.comment-meta {
+	font-size:12px;
+}
+	
+#commentform p {
+	font-size: 12px;
+}
+	
+.avatar {
+	float: left;
+	margin: 20px 15px 0 0;
+}
+	
+
+#content img.print {
+	float: right;
+	border: none;
+	clear:both;
+	margin-bottom: 20px;
+}
+		
+#content object { 
+	margin: 0 0 10px 0px ; 
+}
+	
+#content pre {
+	max-height: 300px;
+	font-size: 12px;
+	padding: 10px;
+	margin: 10px 0px;
+	overflow: auto;
+}
+	
+#content.attachment {padding-left:0px;
+}
+	
+.clear {
+	clear:both;
+}
+
+					
+/* POST ITEMS */
+.post-box {
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+
+.postmetadata {
+	font-size:12px;
+	font-style:italic;
+}
+
+.sticky {
+	
+}
+
+.bypostauthor {
+	
+}
+
+.read-more {
+	font-style: italic;	
+}
+
+/* GALLERY ITEMS */
+.gallery {
+	margin: auto;
+}
+	
+.gallery-item {
+	float: left;
+	margin: 5px 3px 5px 0;
+	text-align: center;
+}
+	
+#content p.smallattachment a, 
+#content dl.gallery-item a {
+	border-bottom: none;
+}
+	
+.gallery img {
+}
+	
+.gallery-caption {
+	margin-left: 0;
+}
+	
+#content p.wp-caption-text {
+	margin-top: 10px;
+	font-size: 12px;
+}
+		
+/*  -------  END WORDPRESS-GENERATED SELECTORS  ---------  */
